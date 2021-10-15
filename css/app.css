@@ -1,0 +1,92 @@
+.hide {
+    display: none;
+}
+
+
+.secret-item {
+    position: relative;
+    width: 270px;
+    height: 105px;
+    background-color: #a5cca6bf;
+    margin: 10px;
+    padding-left: 5px;
+    float: left;
+}
+
+#config-table {
+    float: left;
+}
+/* #config-table div {
+    position: absolute;
+} */
+
+.otp {
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    font-size: 30px;
+    width: 130px;
+    border: none;
+    background-color: #ffffff00
+}
+
+.otp-title {
+    background-color: #ffffff00;
+    border: none;
+    width: 100%;
+}
+
+.otp-time-remaining {
+    position: absolute;
+    left: 160px;
+    top: 35px;
+    font-size: 15px;
+    width: 30px;
+    border: none;
+    background-color: #ffffff00
+}
+
+.otp-secret {
+    position: absolute;
+    top: 68px;
+    left: 5px;
+}
+
+.delete-otp-item {
+    position: absolute;
+    top: 31px;
+    left: 210px;
+    border: none;
+    background: none;
+}
+
+#qr-scanner-page {
+    position: fixed;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    transition: all 300ms 0s ease;
+}
+
+#qr-scanner-page video {
+    position: relative;
+    top: 60px;
+    left: 5%;
+    width: 90%;
+}
+
+
+.qr-scanner-hide {
+    top: 120%;
+}
+
+.qr-scanner-show {
+    top: 0%;
+}
+
+#cancel-qr-scanner {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}

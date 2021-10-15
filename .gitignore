@@ -1,0 +1,7 @@
+.history
+.vscode
+node_modules
+out/
+app.log
+config.json
+package-lock.json
